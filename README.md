@@ -21,7 +21,7 @@ or a life change?
 -Then select a paradigm that best addresses how you'd like to reflect on this question:
 a. Solo - 1 Card spread: This paradigm will prompt you to select a single card, for quick reflections or simple meditation.
 b. Chrono - 3 Card Spread: This paradigm will have you select 3 cards. One will represent lessons from your past, one will represent the present question at hand, and the last will represent things to consider for the future.
-c. Branch - 2 Card Spread: This paradigm will have you select 2 cards. Each card will represent a separate consideration for you to consider when addressing your question. Choose the one that resonates most with you.
+c. Fork - 2 Card Spread: This paradigm will have you select 2 cards. Each card will represent a separate consideration for you to contemplate when addressing your question. Choose the one that resonates most with you.
 -Once you have chosen your spread, you will be prompted to choose face-down cards. They will be flipped over to reveal their meaning.
 -Read the corresponding guide, and take notes if you wish. The cards can be used as journaling prompts, for example.
 
