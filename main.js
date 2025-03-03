@@ -45,9 +45,6 @@ const frontArray = [
 
 ];
 
-// var notSelected = document.querySelectorAll('.cardImg:not(.selected)');
-// const cardDeck = document.querySelector('cardDeck')
-
 
 tableTop.addEventListener('click', () => {
     if (soloCard4.classList.contains('shuffDone')) {
@@ -74,21 +71,3 @@ function getCardFront() {
     var cardDesc = cardDescArray[randomIndex];
 
 }
-
-if (soloCard1.classList.contains('fanned')) {
-
-    cardSlotSolo.innerHTML = cardDesc;
-    // cardDeck.forEach((item, i) => {
-    //     item.addEventListener('click', () => {
-    //         cardImg.forEach(option => {
-    //             option.classList.add('unselected');
-    //         })
-    //         if (i == domIndex) {
-    //             item.classList.add('selected');
-    //             // cardSlotSolo.innerHTML = '<img src="' + '"class="secImg"> ';
-    //             cardSlotSolo.innerHTML = cardDesc;
-    //         }
-
-    //     });
-    // });
-};
