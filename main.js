@@ -8,8 +8,10 @@ const soloCard2 = document.querySelector('#soloCard2');
 const soloCard3 = document.querySelector('#soloCard3');
 const soloCard4 = document.querySelector('#soloCard4');
 const soloCard5 = document.querySelector('#soloCard5');
-const card = document.querySelector('.card');
+const card = document.querySelectorAll('.card');
 const cardSlotSolo = document.querySelector('#cardSlotSolo');
+const frontDivs = document.querySelectorAll('.front');
+const backImg = document.querySelectorAll('.back');
 
 //ARRAYS
 
@@ -75,43 +77,46 @@ function clickId() {
     let cardID = (e.target.id);
 }
 
-var cardFront = frontArray[randomIndex];
-var cardDesc = cardDescArray[randomIndex];
+// var cardFront = frontArray[randomIndex];
+// var cardDesc = cardDescArray[randomIndex];
 
 
 tableTop.addEventListener('click', () => {
     if (cardSpread === true) {
-
-        cardSlotSolo.innerHTML = cardDesc;
-
-        for (var i = 0; i < cardList.length; i++) {
-            cardList[i].cardIndex = i;
-            cardList[i].addEventListener('click', function () {
+        for (var i = 0; i < card.length; i++) {
+            card[i].cardIndex = i;
+            card[i].addEventListener('click', function () {
 
                 console.log(this.cardIndex);
-                // this.cardIndex.nextsibling.innerHTML = '<img src="' + cardFront + '" class="cardFont">'
+                cardSlotSolo.innerHTML = cardDescArray[randomIndex];
+
+                frontDivs[this.cardIndex].innerHTML = '<img src="' + frontArray[randomIndex] + '">'
+                frontDivs[this.cardIndex].classList.remove('hidden');
+                backImg[this.cardIndex].classList.add('selected');
+
 
             })
         }
 
 
-    } else if (cardShuffled === true) {
-        soloCard1.classList.add('cardFirst');
-        soloCard2.classList.add('cardSecond');
-        soloCard3.classList.add('cardThird');
-        soloCard4.classList.add('cardFourth');
-        soloCard5.classList.add('cardFifth');
+    }
+    else if (cardShuffled === true) {
+        card[0].classList.add('card1');
+        card[1].classList.add('card2');
+        card[2].classList.add('card3');
+        card[3].classList.add('card4');
+        card[4].classList.add('card5');
 
-
+        cardSpread = true
         for (var i = 0; i < cardImg.length; i++) {
             cardImg[i].classList.add('fanned');
-            cardSpread = true
+
         }
 
     }
     else {
-        soloCard4.classList.add('shuffleL', 'shuffDone');
-        soloCard5.classList.add('shuffleR', 'shuffDone');
+        card[3].classList.add('shuffleL', 'shuffDone');
+        card[4].classList.add('shuffleR', 'shuffDone');
         cardShuffled = true;
 
     }
