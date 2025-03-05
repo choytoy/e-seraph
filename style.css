@@ -326,6 +326,8 @@ h1 {
     border-radius: 15px;
     background-color: rgba(51, 50, 50, 0.379);
     margin: auto;
+    display: flex;
+    padding: 15px;
 }
 
 .unSelected:hover {
