@@ -26,20 +26,20 @@ const cardList = [
 
 //List of descriptions
 const cardDescArray = [
-    'aegis',
-    'angel',
-    'artifice',
-    'concavity',
-    'fount',
-    'haunt',
-    'heritage',
-    'opulence',
-    'order',
-    'pestilence',
-    'ribbons',
-    'solipsism',
-    'tyranny',
-    'valor'
+    "Upright, Aegis the divine shield represents protection against the influence of others, hard-headedness, and stubbornness. When drawing Aegis upright, one should be careful not to shut themselves off from valuable connections.",
+    "Upright, the Angel card represents servitude. Drawing this card, one should reflect on their duties and responsibilities. Perceive any gaps in your service to causes and others, and focus your energies on how to promote generativity and wholesomeness in your community.",
+    "Upright, Artifice represents the constructed world. This includes the creation of art and productivity. Drawing this card calls your attention to projects and the forces that interact with them.",
+    "Upright, Concavity is one’s tolerance for suffering. The concave person revels and identifies as their suffering. From these experiences, one may draw strength, creativity, or comfort. Concavity is a double-edged sword, two extremes: a gift and a burden all at once.",
+    "Upright, Fount is the basis from which all things flow. This card represents abundance and limitless opportunity. With an abundance of water comes the possibility of drowning. The one who draws this card should proceed cautiously and demonstrate restraint.",
+    "Upright, Haunt symbolises our past, and the experiences which continue to impact our present and future. The Haunt card suggests we examine the influence that our memories and trauma have in shaping who we are and the decisions we make.",
+    "Upright, Heritage is that which has been passed down, the core of one’s nature, and one’s explicit talent. It represents one’s childhood, body, ability, family, and capacity at the most basic level. It is your starting line.",
+    "Upright, the Opulence card symbolises the aesthetic world. Drawing it therefore draws our attention to the physical appearance, the material, and the appealing. Opulence considers our preferences and desires for material wealth. It also symbolises fame and infamy.",
+    "Upright, Order symbolises the status quo. At once, Order stands for both safety and banality. At times, drawing this card can bring a sense of comfort, as it brings with it a focus on things which fall into their rightful places. Other times, this card is uninspiring.",
+    "Upright, Pestilence represents complete destruction. This can be positive or negative in nature, but generally represents the total symbolic loss of an object or idea we’ve grown accustomed to. Be cautious to hold prized possessions, health, and loved ones close by after drawing this card.",
+    "Upright, the Ribbons of Fate represent providence, luck and ease. Drawing this card, one might reflect on the resources at one’s disposal and make use of these in addressing their question.",
+    "Upright, Solipsism represents a sense of zen, and contentedness with the outcome of conflicts. When drawing this card, one may focus on their reactions to events, instead of the outcomes themselves. Solipsism allows one to draw peace from absence as well as presence.",
+    "Upright, Tyranny represents strength, force of will, and determination. The one who wields this card exerts their dominance over their profession and relationships. One should ensure this dominance is not aggressive in nature, and instead compelled by the cooperation and encouragement of others.",
+    "Upright, Valor represents unyielding courage in the face of challenges and adversity. Drawing this card calls to your capacity for bravery. The one who draws Valor upright should commend themselves on their spirit, and similarly brace themselves for future challenges."
 ];
 
 //Cards front imagery
