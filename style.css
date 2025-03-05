@@ -320,13 +320,13 @@ h1 {
 }
 
 #cardSlotSolo {
-    height: 300px;
+    height: 150px;
     width: auto;
     border-radius: 15px;
     background-color: rgba(51, 50, 50, 0.379);
     padding: 15px;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .unSelected:hover {
