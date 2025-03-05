@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Shafarik';
-    src: url('https://choytoy.github.io/e-seraph/assets/fonts/Shafarik-Regular.ttf');
+    src: url('https://github.com/choytoy/e-seraph/blob/main/fonts/Shafarik-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Seagram';
-    src: url('https://choytoy.github.io/e-seraph/assets/fonts/Seagram.ttf');
+    src: url('https://github.com/choytoy/e-seraph/blob/main/fonts/Seagram.ttf');
 }
 
 div {
