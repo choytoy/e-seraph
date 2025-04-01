@@ -36,4 +36,4 @@ _A.I. Statement:_
 _No generative AI was used in the creation of this website or its contents. The author prohibits any entity from using the content of this website for the training of AI technologies or for generative AI purposes._
 
 _Copyright Statement:_
-_Artistic property is protected under Canada's Copyright Act (CARFAC). Unauthorized use or sale of this property is prohibited by law. This program is intended for personal use only. Copyright (2025) Chaya "Choy" Abramovitch._
+_Artistic property is protected under Canada's Copyright Act (CARFAC). Unauthorized use or sale of this property is prohibited by law. This program is intended for personal use only. Copyright (2025) Chaya "Choy"._

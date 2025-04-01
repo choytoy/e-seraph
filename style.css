@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Shafarik';
-    src: url('https://github.com/choytoy/e-seraph/blob/main/fonts/Shafarik-Regular.ttf');
+    src: url('https://github.com/choytoy/e-seraph/fonts/Shafarik-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Seagram';
-    src: url('https://github.com/choytoy/e-seraph/blob/main/fonts/Seagram.ttf');
+    src: url('https://github.com/choytoy/e-seraph/fonts/Seagram.ttf');
 }
 
 div {
@@ -327,6 +327,7 @@ h1 {
     padding: 15px;
     font-size: 20px;
     line-height: 1.5;
+    inset: auto;
 }
 
 .unSelected:hover {
